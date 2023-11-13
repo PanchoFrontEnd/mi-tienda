@@ -3,7 +3,7 @@
 const ItemListContainer = () => {
   return (
     <div>
-      <h1>Bienvenidos a la Cafeteria Ludica</h1>
+      <h1>Bienvenidos a Cafe Ludico</h1>
     </div>
   )
 }
