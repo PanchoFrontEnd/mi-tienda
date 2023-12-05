@@ -3,7 +3,7 @@
         "id": 1,
         "titulo": "Chocolate - Milk",
         "descripcion": "Aenean auctor gravida sem.",
-        "categoria": "medias",
+        "categoria": "Dulces",
         "imagen": "https://store.profileplan.com/cdn/shop/products/Creamy-Chocolate-Shake-1-cropped_a49f6cfe-ab63-4cef-99fe-ef8c93fafc1e_771x1000.jpg?v=1585765603",
         "precio": 1500,
         "stock": 10
@@ -12,120 +12,120 @@
         "id": 2,
         "titulo": "Muffin - Mix - Strawberry Rhubarb",
         "descripcion": "Nulla ut erat id mauris vulputate elementum.",
-        "categoria": "medias",
+        "categoria": "Dulces",
         "imagen": "https://www.seasonsandsuppers.ca/wp-content/uploads/2023/06/strawberry-rhubarb-muffins-1200-2-768x768.jpg",
-        "precio": 1500,
+        "precio": 1250,
         "stock": 10
     },
     {
         "id": 3,
         "titulo": "Appetizer - Tarragon Chicken",
         "descripcion": "Aenean auctor gravida sem.",
-        "categoria": "pantalones",
+        "categoria": "Platos",
         "imagen": "https://assets-global.website-files.com/6425f03eadc96686600b6d52/64f3b526233beaba81236e40_Grilled%20Chicken%20in%20Creamy%20Tarragon%20Sauce.png",
-        "precio": 1500,
+        "precio": 3750,
         "stock": 10
     },
     {
         "id": 4,
         "titulo": "Jam - Strawberry, 20 Ml Jar",
         "descripcion": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
-        "categoria": "remeras",
+        "categoria": "Dulces",
         "imagen": "https://www.leppfarmmarket.com/wp-content/uploads/2021/05/StrawberryJam-2020-LowRes-Horizontal-04.jpg",
-        "precio": 1500,
+        "precio": 2800,
         "stock": 10
     },
    
     {
-        "id": 6,
+        "id": 5,
         "titulo": "Cheese - Brie, Soup Cream",
         "descripcion": "In hac habitasse platea dictumst.",
-        "categoria": "remeras",
+        "categoria": "Entrada",
         "imagen": "https://www.supremecheese.com/wp-content/uploads/2019/08/supreme-recipe4.jpg",
-        "precio": 1500,
+        "precio": 3800,
         "stock": 10
     },
     {
-        "id": 9,
+        "id": 6,
         "titulo": "Nut - Almond, Blanched, Ground",
         "descripcion": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
-        "categoria": "pantalones",
+        "categoria": "Dulces",
         "imagen": "https://artisante.in/cdn/shop/products/almond-butter-blanched-676514_1800x1800.jpg?v=1677983930",
-        "precio": 1500,
+        "precio": 1750,
+        "stock": 10
+    },
+    {
+        "id": 7,
+        "titulo": "Pasta - Fett Alfredo",
+        "descripcion": "Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+        "categoria": "Platos",
+        "imagen": "https://www.twopeasandtheirpod.com/wp-content/uploads/2018/05/fettuccine-alfredo-6-650x959.jpg",
+        "precio": 4800,
+        "stock": 10
+    },
+    {
+        "id": 8,
+        "titulo": "Bread - Assorted Rolls",
+        "descripcion": "Mauris sit amet eros.",
+        "categoria": "Pan",
+        "imagen": "https://img.freepik.com/premium-photo/wicker-basket-filled-with-assorted-bread-rolls_126745-144.jpg?w=996",
+        "precio": 2650,
+        "stock": 10
+    },
+    
+    {
+        "id": 9,
+        "titulo": "Tuna - Sushi Grade",
+        "descripcion": "Aenean sit amet justo.",
+        "categoria": "Entrada",
+        "imagen": "https://www.sizzlefish.com/cdn/shop/products/ahi2_1800x1800.png?v=1692800680",
+        "precio": 2850,
         "stock": 10
     },
     {
         "id": 10,
-        "titulo": "Pasta - Fett Alfredo",
-        "descripcion": "Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
-        "categoria": "remeras",
-        "imagen": "https://www.twopeasandtheirpod.com/wp-content/uploads/2018/05/fettuccine-alfredo-6-650x959.jpg",
-        "precio": 1500,
+        "titulo": "Wine - Barbera Alba Doc 2001",
+        "descripcion": "In blandit ultrices enim.",
+        "categoria": "Vinos",
+        "imagen": "https://laroncaglia.it/sites/d_roncaglia/files/styles/max_width/public/img/wine/imgs/na-stisa-.jpg?itok=9DlIYQPa",
+        "precio": 4200,
         "stock": 10
     },
     {
         "id": 11,
-        "titulo": "Bread - Assorted Rolls",
-        "descripcion": "Mauris sit amet eros.",
-        "categoria": "remeras",
-        "imagen": "https://img.freepik.com/premium-photo/wicker-basket-filled-with-assorted-bread-rolls_126745-144.jpg?w=996",
-        "precio": 1500,
+        "titulo": "Artichoke - Hearts, Canned",
+        "descripcion": "Nullam varius.",
+        "categoria": "Entrada",
+        "imagen": "https://mezzeandtapas.com/wp-content/uploads/2020/10/Pan-Roast-Artichoke-11-1024x683.jpg",
+        "precio": 2350,
         "stock": 10
     },
     
     {
+        "id": 12,
+        "titulo": "Truffle Cups - Red",
+        "descripcion": "Nulla tempus.",
+        "categoria": "Platos",
+        "imagen": "https://dessertsonadime.com/wp-content/uploads/2022/08/Red-Velvet-Trifle-Cups-low-res-15.jpg.webp",
+        "precio": 1900,
+        "stock": 10
+    },
+    {
         "id": 13,
-        "titulo": "Tuna - Sushi Grade",
-        "descripcion": "Aenean sit amet justo.",
-        "categoria": "medias",
-        "imagen": "https://www.sizzlefish.com/cdn/shop/products/ahi2_1800x1800.png?v=1692800680",
-        "precio": 1500,
+        "titulo": "Ham - Smoked, Bone - In",
+        "descripcion": "Etiam justo.",
+        "categoria": "Dulces",
+        "imagen": "https://mrecipes.com/wp-content/uploads/2018/04/featured-ham.jpg",
+        "precio": 5000,
         "stock": 10
     },
     {
         "id": 14,
-        "titulo": "Wine - Barbera Alba Doc 2001",
-        "descripcion": "In blandit ultrices enim.",
-        "categoria": "buzos",
-        "imagen": "https://laroncaglia.it/sites/d_roncaglia/files/styles/max_width/public/img/wine/imgs/na-stisa-.jpg?itok=9DlIYQPa",
-        "precio": 1500,
-        "stock": 10
-    },
-    {
-        "id": 15,
-        "titulo": "Artichoke - Hearts, Canned",
-        "descripcion": "Nullam varius.",
-        "categoria": "remeras",
-        "imagen": "https://mezzeandtapas.com/wp-content/uploads/2020/10/Pan-Roast-Artichoke-11-1024x683.jpg",
-        "precio": 1500,
-        "stock": 10
-    },
-    
-    {
-        "id": 17,
-        "titulo": "Truffle Cups - Red",
-        "descripcion": "Nulla tempus.",
-        "categoria": "remeras",
-        "imagen": "https://dessertsonadime.com/wp-content/uploads/2022/08/Red-Velvet-Trifle-Cups-low-res-15.jpg.webp",
-        "precio": 1500,
-        "stock": 10
-    },
-    {
-        "id": 18,
-        "titulo": "Ham - Smoked, Bone - In",
-        "descripcion": "Etiam justo.",
-        "categoria": "pantalones",
-        "imagen": "https://mrecipes.com/wp-content/uploads/2018/04/featured-ham.jpg",
-        "precio": 1500,
-        "stock": 10
-    },
-    {
-        "id": 20,
         "titulo": "Bread - Hot Dog Buns",
         "descripcion": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
-        "categoria": "buzos",
+        "categoria": "Entrada",
         "imagen": "https://assets-eu-01.kc-usercontent.com/559bb7d3-88a4-01c1-79a3-dd4d5b2d2bb0/1b121602-b422-4c4a-b0c6-db7ce65866af/1-Hot-Dogs-web.jpg?w=1920&q=85&auto=format&lossless=1",
-        "precio": 1500,
+        "precio": 1950,
         "stock": 10
     }
 ]

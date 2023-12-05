@@ -10,6 +10,9 @@ const Item = ({ producto }) => {
       <div>
         <h4>{producto.titulo}</h4>
         <p>Precio: ${producto.precio}</p>
+        <p>Categoria: {producto.categoria} </p>
+        <a className="ver-mas">Ver mas</a>
+
       </div>
     </div>
   );
