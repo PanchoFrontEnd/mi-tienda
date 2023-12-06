@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titulo": "Chocolate - Milk",
-        "descripcion": "Aenean auctor gravida sem.",
+        "descripcion": "Sumérgete en el divino placer del Chocolate con Leche, una sinfonía celestial de suavidad y dulzura que deleitará tus sentidos. Este exquisito manjar combina la rica cremosidad del chocolate con la delicadeza de la leche, creando una experiencia indulgente que te transportará a un paraíso de sabores. Cada bocado es una caricia suave y seductora, desatando una ola de felicidad en tu paladar. Deja que el Chocolate con Leche sea tu indulgencia reconfortante, un regalo celestial que eleva cualquier momento a una deliciosa celebración. Sumérgete en la magia de este placer decadente y descubre por qué el Chocolate con Leche es una tentación irresistible que nunca pasa de moda. ¡Deleita tus sentidos y sumérgete en un mundo de pura satisfacción chocolatosa!",
         "categoria": "Dulces",
         "imagen": "https://images-prod.healthline.com/hlcmsresource/images/AN_images/chocolate-milk-1296x728-feature.jpg",
         "precio": 1500,
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "titulo": "Muffin - Mix - Strawberry Rhubarb",
-        "descripcion": "Nulla ut erat id mauris vulputate elementum.",
+        "descripcion": "Sumérgete en la deliciosa fusión de sabores con nuestros Muffins de Mezcla de Fresa y Ruibarbo. Cada bocado es una armonía perfecta entre la jugosidad de las fresas y la sutil acidez del ruibarbo, todo encerrado en una masa esponjosa. Estos muffins son una explosión de frescura y dulzura que transforma cualquier momento en una experiencia culinaria extraordinaria. ¡Descubre la magia en cada mordisco!",
         "categoria": "Dulces",
         "imagen": "https://www.seasonsandsuppers.ca/wp-content/uploads/2023/06/strawberry-rhubarb-muffins-1200-2-768x768.jpg",
         "precio": 1250,
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "titulo": "Appetizer - Tarragon Chicken",
-        "descripcion": "Aenean auctor gravida sem.",
+        "descripcion": "Explora una explosión de sabores con nuestro aperitivo de Pollo al Estragón. Cada bocado es una combinación perfecta de tierno pollo con el distintivo toque del estragón, creando una experiencia culinaria única. Deleita tu paladar con la mezcla de sabores jugosos y aromas irresistibles. Este aperitivo es una invitación a descubrir la frescura y exquisitez en cada mordisco. Disfruta de un deleite gastronómico que transformará tus momentos en una experiencia gourmet inolvidable. ¡Déjate llevar por el sabor y la elegancia del Pollo al Estragón en cada ocasión!.",
         "categoria": "Platos",
         "imagen": "https://assets-global.website-files.com/6425f03eadc96686600b6d52/64f3b526233beaba81236e40_Grilled%20Chicken%20in%20Creamy%20Tarragon%20Sauce.png",
         "precio": 3750,
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "titulo": "Jam - Strawberry, 20 Ml Jar",
-        "descripcion": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
+        "descripcion": "Descubre la perfección en pequeños frascos con nuestra exquisita Mermelada de Fresa en tarro de 20 ml. Cada jarra contiene la esencia fresca y jugosa de las fresas, transformada en una mermelada dulce y deliciosa. Este pequeño tesoro es una explosión de sabor que condensa la frescura de las fresas en cada cucharada. Sumérgete en el placer de la mermelada de fresa, perfecta para elevar cualquier bocado a una experiencia gourmet. Este tarro de 20 ml es una joya culinaria que te invita a disfrutar de la indulgencia en su forma más concentrada. ¡Explora el lujo de la Mermelada de Fresa en cada untada!",
         "categoria": "Dulces",
         "imagen": "https://www.leppfarmmarket.com/wp-content/uploads/2021/05/StrawberryJam-2020-LowRes-Horizontal-04.jpg",
         "precio": 2800,
@@ -39,7 +39,7 @@
     {
         "id": 5,
         "titulo": "Cheese - Brie, Soup Cream",
-        "descripcion": "In hac habitasse platea dictumst.",
+        "descripcion": "Deléitate con nuestra exclusiva Crema de Queso Brie en un envase de 20 ml. Cada gota de esta crema es un festín para tus sentidos, fusionando la riqueza del queso Brie con la suavidad de la crema. Este pequeño frasco encapsula la esencia deliciosamente untuosa de esta combinación única. Sumérgete en la indulgencia de la crema de queso Brie, perfecta para elevar tus platillos a nuevas alturas de sabor. Este envase de 20 ml es un tesoro gastronómico que te invita a disfrutar de la elegancia del Brie en cada cucharada. ¡Explora la sofisticación de la Crema de Queso Brie en cada degustación!",
         "categoria": "Entrada",
         "imagen": "https://www.supremecheese.com/wp-content/uploads/2019/08/supreme-recipe4.jpg",
         "precio": 3800,
@@ -48,7 +48,7 @@
     {
         "id": 6,
         "titulo": "Nut - Almond, Blanched, Ground",
-        "descripcion": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
+        "descripcion": "Descubre la exquisitez en cada grano con nuestra Almendra Blanqueada y Molida en un envase de 20 ml. Cada gota de esta mezcla finamente molida revela la pureza y el sabor auténtico de las almendras. Este pequeño frasco contiene el tesoro de las almendras blanqueadas, ofreciendo una experiencia culinaria única en cada pizca. Sumérgete en la indulgencia de las almendras molidas, perfectas para dar un toque gourmet a tus creaciones culinarias. Este envase de 20 ml es un regalo gastronómico que te invita a explorar la versatilidad y la calidad de las almendras en cada preparación. ¡Embárcate en un viaje de sabor con nuestras Almendras Blanqueadas y Molidas!",
         "categoria": "Dulces",
         "imagen": "https://artisante.in/cdn/shop/products/almond-butter-blanched-676514_1800x1800.jpg?v=1677983930",
         "precio": 1750,
@@ -57,7 +57,7 @@
     {
         "id": 7,
         "titulo": "Pasta - Fett Alfredo",
-        "descripcion": "Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+        "descripcion": "Experimenta la indulgencia en cada bocado con nuestra Pasta Fettuccine Alfredo. Este clásico italiano combina fettuccine perfectamente cocido con una rica y cremosa salsa Alfredo. Cada tenedorada es un deleite de suavidad y sabor, elevando tus momentos de degustación a nuevas alturas. Descubre la elegancia en cada porción y sumérgete en la deliciosa simplicidad de la Pasta Fettuccine Alfredo. ¡Una experiencia culinaria que no querrás perderte!",
         "categoria": "Platos",
         "imagen": "https://www.twopeasandtheirpod.com/wp-content/uploads/2018/05/fettuccine-alfredo-6-650x959.jpg",
         "precio": 4800,
@@ -66,7 +66,7 @@
     {
         "id": 8,
         "titulo": "Bread - Assorted Rolls",
-        "descripcion": "Mauris sit amet eros.",
+        "descripcion": "Descubre la diversidad de sabores en nuestros Bread - Assorted Rolls. Cada rollo es una mezcla perfecta de suavidad y sabor, ofreciendo una experiencia única en cada bocado. Desde opciones clásicas hasta creaciones exquisitas, esta variedad es perfecta para cualquier ocasión. Sumérgete en la indulgencia de nuestros Rolls, elevando tus momentos de degustación con frescura y versatilidad. ¡Disfruta de la diversidad en cada elección con nuestros Assorted Rolls!",
         "categoria": "Pan",
         "imagen": "https://img.freepik.com/premium-photo/wicker-basket-filled-with-assorted-bread-rolls_126745-144.jpg?w=996",
         "precio": 2650,
@@ -76,7 +76,7 @@
     {
         "id": 9,
         "titulo": "Tuna - Sushi Grade",
-        "descripcion": "Aenean sit amet justo.",
+        "descripcion": "Explora la frescura y calidad de nuestro Tuna Sushi Grade. Este atún de grado sushi ofrece una experiencia culinaria excepcional. Cada porción es una mezcla perfecta de frescura y sabor, ideal para elevar tus momentos gastronómicos. Sumérgete en la indulgencia de nuestro Tuna Sushi Grade, una opción deliciosa y versátil. ¡Disfruta de la calidad y frescura en cada bocado!",
         "categoria": "Entrada",
         "imagen": "https://www.sizzlefish.com/cdn/shop/products/ahi2_1800x1800.png?v=1692800680",
         "precio": 2850,
@@ -85,7 +85,7 @@
     {
         "id": 10,
         "titulo": "Wine - Barbera Alba Doc 2001",
-        "descripcion": "In blandit ultrices enim.",
+        "descripcion": "Descubre la exquisitez en cada sorbo con nuestro vino Barbera Alba DOC 2001. Este vino ofrece una experiencia única con su mezcla distintiva y añejamiento refinado. Sumérgete en la indulgencia de Barbera Alba, donde cada copa es un deleite para el paladar. ¡Disfruta la calidad y la elegancia en cada momento!",
         "categoria": "Vinos",
         "imagen": "https://laroncaglia.it/sites/d_roncaglia/files/styles/max_width/public/img/wine/imgs/na-stisa-.jpg?itok=9DlIYQPa",
         "precio": 4200,
@@ -94,7 +94,7 @@
     {
         "id": 11,
         "titulo": "Artichoke - Hearts, Canned",
-        "descripcion": "Nullam varius.",
+        "descripcion": "Explora la delicia de nuestros Alcachofas en Conserva. Cada corazón, cuidadosamente enlatado, ofrece una experiencia culinaria de calidad. Sumérgete en la indulgencia de estas alcachofas, ideales para realzar tus platillos con su frescura y versatilidad. ¡Disfruta de la calidad en cada bocado con nuestras Artichoke Hearts enlatadas!",
         "categoria": "Entrada",
         "imagen": "https://mezzeandtapas.com/wp-content/uploads/2020/10/Pan-Roast-Artichoke-11-1024x683.jpg",
         "precio": 2350,
@@ -104,7 +104,7 @@
     {
         "id": 12,
         "titulo": "Truffle Cups - Red",
-        "descripcion": "Nulla tempus.",
+        "descripcion": "Experimenta la sofisticación en cada porción con nuestras Truffle Cups en color rojo. Estas delicias, presentadas en elegantes copas, ofrecen una experiencia gourmet única. Sumérgete en la indulgencia de los Truffle Cups, donde cada bocado es un deleite de sabor y elegancia. ¡Disfruta de la sofisticación en cada momento con nuestras Truffle Cups en rojo!",
         "categoria": "Platos",
         "imagen": "https://dessertsonadime.com/wp-content/uploads/2022/08/Red-Velvet-Trifle-Cups-low-res-15.jpg.webp",
         "precio": 1900,
@@ -113,7 +113,7 @@
     {
         "id": 13,
         "titulo": "Ham - Smoked, Bone - In",
-        "descripcion": "Etiam justo.",
+        "descripcion": "Descubre la exquisitez de nuestro Jamón Ahumado con hueso. Cada corte, impregnado con el distintivo sabor ahumado, ofrece una experiencia culinaria inigualable. Sumérgete en la indulgencia de este jamón, donde cada porción es un deleite de sabor y calidad. ¡Disfruta del sabor ahumado y la jugosidad en cada bocado con nuestro Ham - Smoked, Bone-In!",
         "categoria": "Dulces",
         "imagen": "https://mrecipes.com/wp-content/uploads/2018/04/featured-ham.jpg",
         "precio": 5000,
@@ -122,7 +122,7 @@
     {
         "id": 14,
         "titulo": "Bread - Hot Dog Buns",
-        "descripcion": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
+        "descripcion": "Explora la simplicidad y delicioso sabor de nuestros Panecillos para Hot Dogs. Cada panecillo, fresco y esponjoso, eleva tus comidas a otro nivel. Sumérgete en la indulgencia de estos panecillos, perfectos para complementar tus hot dogs favoritos. ¡Disfruta de la calidad en cada bocado con nuestros Bread - Hot Dog Buns!",
         "categoria": "Entrada",
         "imagen": "https://assets-eu-01.kc-usercontent.com/559bb7d3-88a4-01c1-79a3-dd4d5b2d2bb0/1b121602-b422-4c4a-b0c6-db7ce65866af/1-Hot-Dogs-web.jpg?w=1920&q=85&auto=format&lossless=1",
         "precio": 1950,
