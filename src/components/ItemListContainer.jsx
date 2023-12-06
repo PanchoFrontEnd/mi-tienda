@@ -1,42 +1,36 @@
 import { useEffect, useState } from "react"
 import { pedirDatos } from "../helpers/pedirDatos"
 import ItemList from "./ItemList";
+import { useParams } from "react-router";
 
 
 const ItemListContainer = () => {
+
   const [productos, setProductos] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+
+  const [titulo, setTitulo] = useState("Productos");
+
+  const categoria = useParams().categoria;
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const data = await pedirDatos();
-        setProductos(data);
-      } catch (error) {
-        setError('Error al cargar datos');
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, []); 
-
-  if (loading) {
-    return <p>Cargando...</p>;
-  }
-
-  if (error) {
-    return <p>{error}</p>;
-  }
-
-  return (
-    <div>
-      <ItemList productos={productos} />
-    </div>
-  );
-};
+      pedirDatos()
+          .then((res) => {
+            if (categoria){
+              setProductos( res.filter((prod) => prod.categoria === categoria) );
+              setTitulo(categoria);
+            } else {
+              setProductos(res);
+              setTitulo("Productos");
+            }
+          })
+  }, [categoria])
+  
+return (
+  <div>
+      <ItemList productos={productos} titulo={titulo} />
+  </div>
+)
+}
 
 export default ItemListContainer;
 
