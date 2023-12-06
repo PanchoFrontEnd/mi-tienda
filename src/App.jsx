@@ -1,12 +1,15 @@
 import Navbar from './components/Navbar';
 import ItemListContainer from './components/ItemListContainer';
 import './main.css';
+import ItemDetailContainer from './components/ItemDetailContainer';
 
 function App() {
   return (
    <div>
     <Navbar  />
-    <ItemListContainer />
+    <ItemListContainer />  
+   <ItemDetailContainer itemId={2} />
+
    </div>
   );
 }

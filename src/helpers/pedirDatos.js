@@ -1,17 +1,28 @@
 import data from "../data/data.json";
 
-export const pedirDatos = async () => {
-  try {
-  
-    await new Promise((resolve) => setTimeout(resolve, 500));
+export const pedirDatos = () => {
+  return new Promise((resolve, reject) => {
+      setTimeout( () => {
+          resolve(data);
+      }, 500)
+  })
+}
 
+export const pedirItemPorId = (id) => {
+  return new Promise((resolve, reject) => {
+      
+      const item = data.find((el) => el.id === id);
 
-    return data;
-  } catch (error) {
-   
-    throw new Error("Error al cargar datos: " + error.message);
-  }
-};
+      if (item) {
+          resolve(item);
+      } else {
+          reject({
+              error: "No se encontró el producto"
+          })
+      }
+
+  })
+}
 
     
      
