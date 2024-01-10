@@ -105,7 +105,7 @@
         "id": 12,
         "titulo": "Truffle Cups - Red",
         "descripcion": "Experimenta la sofisticación en cada porción con nuestras Truffle Cups en color rojo. Estas delicias, presentadas en elegantes copas, ofrecen una experiencia gourmet única. Sumérgete en la indulgencia de los Truffle Cups, donde cada bocado es un deleite de sabor y elegancia. ¡Disfruta de la sofisticación en cada momento con nuestras Truffle Cups en rojo!",
-        "categoria": "Platos",
+        "categoria": "Dulces",
         "imagen": "https://dessertsonadime.com/wp-content/uploads/2022/08/Red-Velvet-Trifle-Cups-low-res-15.jpg.webp",
         "precio": 1900,
         "stock": 10
@@ -114,7 +114,7 @@
         "id": 13,
         "titulo": "Ham - Smoked, Bone - In",
         "descripcion": "Descubre la exquisitez de nuestro Jamón Ahumado con hueso. Cada corte, impregnado con el distintivo sabor ahumado, ofrece una experiencia culinaria inigualable. Sumérgete en la indulgencia de este jamón, donde cada porción es un deleite de sabor y calidad. ¡Disfruta del sabor ahumado y la jugosidad en cada bocado con nuestro Ham - Smoked, Bone-In!",
-        "categoria": "Dulces",
+        "categoria": "Platos",
         "imagen": "https://mrecipes.com/wp-content/uploads/2018/04/featured-ham.jpg",
         "precio": 5000,
         "stock": 10
