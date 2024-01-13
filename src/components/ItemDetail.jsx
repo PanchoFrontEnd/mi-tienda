@@ -21,7 +21,9 @@ const ItemDetail = ( {item} ) => {
 
      const handleAgregar = () => {
       const itemAgregado = {...item, cantidad};
-      console.log(itemAgregado);  
+      
+      setCarrito( [...carrito, itemAgregado] );
+
     }
 
   return (
