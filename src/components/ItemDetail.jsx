@@ -21,6 +21,15 @@ const ItemDetail = ( {item} ) => {
 
      const handleAgregar = () => {
       const itemAgregado = {...item, cantidad};
+
+      const estaEnElCarrito = carrito.find((producto) => producto.id === itemAgregado.id);
+      
+
+      if (estaEnElCarrito) {
+        console.log("Esta en el carrito")
+      } else {
+        console.log("No esta")
+      }
       
       setCarrito( [...carrito, itemAgregado] );
 
