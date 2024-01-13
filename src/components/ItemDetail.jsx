@@ -6,7 +6,7 @@ import { CartContext } from '../context/CartContext'
 
 const ItemDetail = ( {item} ) => {
 
-  const { carrito, setCarrito} = useContext(CartContext);
+  const { carrito, agregarAlCarrito} = useContext(CartContext);
   console.log(carrito);
 
   const [cantidad, setCantidad] = useState(1);
@@ -19,21 +19,7 @@ const ItemDetail = ( {item} ) => {
         cantidad < item.stock && setCantidad(cantidad + 1)
      }
 
-     const handleAgregar = () => {
-      const itemAgregado = {...item, cantidad};
-
-      const estaEnElCarrito = carrito.find((producto) => producto.id === itemAgregado.id);
-      
-
-      if (estaEnElCarrito) {
-        console.log("Esta en el carrito")
-      } else {
-        console.log("No esta")
-      }
-      
-      setCarrito( [...carrito, itemAgregado] );
-
-    }
+    
 
   return (
     <div className="container">
@@ -48,7 +34,7 @@ const ItemDetail = ( {item} ) => {
                    cantidad={cantidad} 
                    handleSumar={handleSumar} 
                    handleRestar={handleRestar} 
-                   handleAgregar={handleAgregar} 
+                   handleAgregar={() => { agregarAlCarrito(item, cantidad)} } 
                 />
 
 

@@ -1,13 +1,21 @@
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
+import React, { useContext } from 'react'
+import { Link } from 'react-router-dom'
+import { CartContext } from '../context/CartContext'
 
 const CartWidget = () => {
+
+
+  const { cantidadEnCarrito } = useContext(CartContext); 
+   
   return (
     <div>
-     <FontAwesomeIcon icon= {faCartShopping } /> 0
+      <Link className="menu-link" to="/Carrito">
+        Carrito
+        <span className="numerito">{cantidadEnCarrito()}</span>
+        </Link>
     </div>
   )
 }
 
 export default CartWidget
+ 
