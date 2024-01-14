@@ -29,34 +29,36 @@ function App() {
     }
     setCarrito(nuevoCarrito);
     
-
   }
 
   const cantidadEnCarrito = () => {
-    return carrito.reduce((acc, prod) => acc + prod.cantidad, 0)
+    return carrito.reduce((acc, prod) => acc + prod.cantidad, 0);
   }
 
-  
+  const precioTotal = () => {
+    return carrito.reduce((acc, prod) => acc + prod.precio * prod.cantidad, 0);
+  }
+
 
   return (
    <div>
-  <CartContext.Provider value={ {carrito, agregarAlCarrito, cantidadEnCarrito} }>
-    <BrowserRouter>
+    <CartContext.Provider value={ {carrito, agregarAlCarrito, cantidadEnCarrito, precioTotal} }>
+     <BrowserRouter>
 
-    <Navbar />
+      <Navbar />
 
-      <Routes>
-        <Route path="/" element={<ItemListContainer />} />
-        <Route path="/item/:id" element={<ItemDetailContainer />}/>
-        <Route path="/productos" element={<ItemListContainer />} />
-        <Route path="/productos/:categoria" element={<ItemListContainer />} />
-        <Route path="/nosotros" element={<Nosotros />}/>
-        <Route path="/carrito" element={<Carrito />}/>
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/item/:id" element={<ItemDetailContainer />}/>
+          <Route path="/productos" element={<ItemListContainer />} />
+          <Route path="/productos/:categoria" element={<ItemListContainer />} />
+          <Route path="/nosotros" element={<Nosotros />}/>
+          <Route path="/carrito" element={<Carrito />}/>
         
-      </Routes>
+        </Routes>
 
-    </BrowserRouter>
-</CartContext.Provider>
+      </BrowserRouter>
+  </CartContext.Provider>
    </div>
   );
 }
