@@ -194,15 +194,23 @@
     padding: 1rem;
 }
 
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: flex-start;
+}
+
 .formulario input {
     padding: .5rem;
-    width: 100%;
-    max-width: 18rem;
+    width: 18rem;
     border-radius: .5rem;
-    border: 2px solid var(--clr-black);
+    border: 2px solid black;
 }
 
 .formulario input:focus {
-    outline: none;
+    outline: 0;
     border: 2px solid var(--clr-main);
+    outline: 2px solid var(--clr-main);
 }
+
