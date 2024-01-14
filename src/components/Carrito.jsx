@@ -15,7 +15,7 @@ const Carrito = () => {
                 |   <h3>{prod.titulo}</h3>
                     <p>Precio unit: ${prod.precio}</p>
                     <p>Precio total: ${prod.precio * prod.cantidad}</p>
-                    <p>Cant: {prod.cantidad} </p>
+                    <p>Cant: {prod.cantidad}</p>
                 </div>
             ))
         }

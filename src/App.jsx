@@ -57,8 +57,8 @@ function App() {
         
         </Routes>
 
-      </BrowserRouter>
-  </CartContext.Provider>
+    </BrowserRouter>
+</CartContext.Provider>
    </div>
   );
 }
