@@ -1,10 +1,10 @@
-Ludifood Store - React JS
+## Ludifood Store - React JS
 ¡Bienvenido a Ludifood Store, una aplicación de React JS para una tienda en línea! Ludifood Store está construido utilizando Create React App, lo que facilita el inicio del desarrollo y la personalización de tu propia tienda en línea.
 
-Empezando
+### Empezando
 Sigue las instrucciones a continuación para comenzar con Ludifood Store:
 
-Instalación
+### Instalación
 Clona el repositorio:
 
 bash
