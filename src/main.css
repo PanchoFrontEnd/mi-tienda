@@ -214,3 +214,41 @@
     outline: 2px solid var(--clr-main);
 }
 
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.precio {
+    color: green;
+}
+
+.cantidad {
+    font-weight: bold;
+}
+
+.precio-total {
+    margin-top: 20px;
+    color: blue;
+}
+
+.vaciar-btn {
+    background-color: purple;  /* Cambié el color a morado */
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.finalizar-compra-link {
+    text-decoration: none;
+    background-color: purple;  /* Cambié el color a morado */
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.carrito-vacio {
+    color: gray;
+}
